@@ -33,13 +33,17 @@ text-transform: uppercase;
 }
 .block_one {
     float: left;
-    width: 450px;
+    width: 421px;
     padding: 15px;
     text-align: justify;
 }
 .block_two {
     padding: 15px;
     float: right;
-    width: 450px;
+    width: 421px;
     text-align: justify;
+}
+.button {
+   position: absolute;
+   top: -50px;
 }
