@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zabortseva_Modul3_dz</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/modul3.css">
 </head>
 
 <body>
     <header>
         <div class="content">
-            <nav>
+            <nav class="navigation">
                 <ul class="menu">
                     <li class="menu_item"><a href="#lifestyle" class="menu_link">Lifestyle</a></li>
                     <li class="menu_item"><a href="#photodiary" class="menu_link">Photodiary</a></li>
@@ -21,10 +22,12 @@
                 </ul>
             </nav>
         </div>
-        <div class="block">
+    </header>
+    <section class="block">
+        <div>
             <div class="block_one">
                 <p><img src="assets/images/1.jpg" alt="music festival" id="lifestyle"></p>
-                <p>lifestyle</p>
+                <p class="sign">lifestyle</p>
                 <h2>More than just a music festival</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus odio, gravida in iaculis
                     vitae, posuere
@@ -54,7 +57,7 @@
             </div>
             <div class="block_two">
                 <p><img src="assets/images/2.jpg" alt="cup wiht a hot coffee" id="photodiary"></p>
-                <p>photodiary</p>
+                <p class="sign">photodiary</p>
                 <h2>Life tastes better wiht coffee</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus odio, gravida in iaculis
                     vitae, posuere
@@ -83,10 +86,12 @@
                 </p>
             </div>
         </div>
-        <div class="block">
+    </section>
+    <section class="block">
+        <div>
             <div class="block_one">
                 <p><img src="assets/images/3.jpg" alt="american dream" id="music"></p>
-                <p>music</p>
+                <p class="sign">music</p>
                 <h2>American dream</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus odio, gravida in iaculis
                     vitae, posuere
@@ -116,7 +121,7 @@
             </div>
             <div class="block_two">
                 <p><img src="assets/images/4.jpg" alt="A day exploring Alps" id="travel"></p>
-                <p>travel</p>
+                <p class="sign">travel</p>
                 <h2>A day exploring Alps</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus odio, gravida in iaculis
                     vitae, posuere
@@ -145,7 +150,9 @@
                 </p>
             </div>
         </div>
-        <div class="block">
+    </section>
+    <section class="block">
+        <div>
             <div class="block_one">
                 <p><img src="assets/images/5.jpg" alt="music festival"></p>
                 <p>lifestyle</p>
@@ -206,12 +213,11 @@
                     ducimus animi?
                 </p>
             </div>
-            
-            <div>
-                <button class="botton">Load more</button>
-            </div>
-        </div>
-    </header>
+    </section>
+    <div class="wrapper">
+        <button class="button"> <p class="text">Load more </p> </button>
+    </div>
+
 
 </body>
 
