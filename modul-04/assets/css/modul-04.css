@@ -1,0 +1,48 @@
+.header {
+    height: 22px;
+    max-width: 1647px;
+}
+
+.content {
+    
+}
+
+.top {
+    float: left;
+}
+
+.navigation {}
+
+.menu {
+    float: right;
+}
+
+.menu_item {}
+
+.menu_link {
+    text-decoration: none;
+}
+
+.top_one {}
+
+.wrapper {}
+
+.img {}
+
+.button {}
+
+.text {}
+
+.cost {}
+
+.summ {}
+
+.wrapper_news {}
+
+.img_news {}
+
+.news {}
+
+.button_news {}
+
+.continue_news {}

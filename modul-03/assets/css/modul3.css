@@ -1,98 +1,110 @@
-.content {
-    margin: 0 90px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navigation {
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+image {
+    display: block;
+    width: 421px;
+    height: 279;
+}
+
+li {
     display: inline-block;
-    max-width: 1133px;
+}
+
+.header {
+    padding: 77px 105px;
+}
+
+.conteiner {
+    width: 900px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu {
-    list-style-type: none;
-    margin-block-start: 0;
-    line-height: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
     text-align: center;
-    display: inline-block;
-}
-
-.menu_item {
-    width: 243px;
-    padding: 6px;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-}
-
-.menu_link {
-    margin-top: 50px;
-    display: block;
-    padding: 5px 70px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
 }
 
 .menu_link:hover {
-    color: lightblue;
+    color: blue;
+}
+
+.menu_link {
+    text-transform: uppercase;
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-right: 121px;
+    font-family: "PlayfairDisplay", serif;
 }
 
 .block {
-    margin: 0 90px;
-    padding: 60px;
-    display: inline-block;
     text-align: center;
+    font-size: 0;
 }
 
 .block_one {
-    float: left;
-    width: 420px;
-    padding: 0 15px;
-    text-align: justify;
-}
-
-.block_two {
-    padding: 0 15px;
-    float: right;
-    width: 420px;
-    text-align: justify;
-}
-
-.wrapper {
-    max-width: 1114px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.button {
-    width: 165px;
-    height: 60px;
-    text-decoration-color: gray;
     display: inline-block;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
+    margin-right: 60px;
 }
 
-.img {
+.text {
     width: 420px;
-    height: 287px;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
+    font-size: 14px;
+    font-family: "PlayfairDisplay", serif;
+    color: rgb(98, 98, 98);
+    text-align: left;
+    margin-top: 35px;
+    padding-bottom: 130px;
+      
 }
 
 .sign {
-    content: "";
+    font-size: 14px;
+    font-family: "Ubuntu" sans-serif;
+    margin-top: 34px;
     text-transform: uppercase;
-    color: lightgrey;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(180, 173, 158);
+    text-align: left;      
 }
-.text {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: darkgray;
+
+h2 {
+    font-size: 30px;
+    font-family: "PlayfairDisplay", serif;
+    color: rgb(98, 98, 98);
+    margin-top: 30px;
+    text-align: left;
+}
+
+.button {
+    text-decoration: none;
+    height: 60px;
+    width: 164px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(98, 98, 98);
+    background-color: rgb(255, 255, 255);
+}
+
+.text_buttom {
+    font-size: 20px;
+    font-family: "PlayfairDisplay", serif;
+    color: rgb(98, 98, 98);
+}
+
+.wrapper {
+    text-align: center;
+    padding: 70px;
 }
