@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zabortseva_modul4</title>
-    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!-- <link rel="stylesheet" href="./assets/css/normalize.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/modul-04.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="content">
-            <nav class="navigation">
+        <div class="conteiner">
+            <nav class="navigation clearfix">
                 <h1 class="top">mart</h1>
-                <ul class="menu">
+                <ul class="menu clearfix">
                     <li class="menu_item"><a href="#" class="menu_link">home</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">about us</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">page</a></li>
@@ -26,105 +27,115 @@
             </nav>
         </div>
     </header>
-    <h2 class="top_one">featured products</h2>
-    <section>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_03.png" alt="Босоножки синие" class="img">
-            <button class="button">
-                <p class="text">blue tshirt </p> <button class="cost">
-                    <p class="summ">&#36 26</p>
-                </button>
-            </button>
+    <main>
+        <div class="conteiner_news">
+            <h2 class="top_one">featured products</h2>
+            <section class="content">
+                <ul class="wrapper clearfix">
+                    <li class="wrapper__team">
+                        <a href="#">
+                            <img src="./assets/images/homework-04_03.png" alt="Босоножки синие" height="282" width="255" class="img">
+                            <button class="button">
+                                <span class="button__text clearfixs">blue tshirt</span>
+                                <span class="cost">$26</span>
+                            </button>
+                        </a>
+                    </li>
+                    <li class="wrapper__team">
+                            <a href="#">
+                                    <img src="./assets/images/homework-04_05.png" alt="Оранжевый ремень" height="282" width="255" class="img">
+                                    <button class="button">
+                                        <span class="button__text">woman shirt</span>
+                                        <span class="cost">$31</span>
+                                    </button>
+                            </a>
+                    </li>
+                    <li class="wrapper__team">
+                            <a href="#">
+                                    <img src="./assets/images/homework-04_07.png" alt="Шляпа" height="282" width="255" class="img">
+                                    <button class="button">
+                                        <span class="button__text">yellow tshirt</span>
+                                        <span class="cost">$21</span>
+                                    </button>
+                            </a>    
+                    </li>
+                    <li class="wrapper__team">
+                            <a href="#">
+                                    <img src="./assets/images/homework-04_09.png" alt="Босоножки синие" height="282" width="255" class="img">
+                                    <button class="button">
+                                        <span class="button__text">cool lingerie</span>
+                                        <span class="cost">$56</span>
+                                    </button>
+                            </a>
+                    </li>
+                    <li class="wrapper__team">
+                            <a href="#">
+                                    <img src="./assets/images/homework-04_15.png" alt="Черная сумка" height="282" width="255" class="img">
+                                    <button class="button">
+                                        <span class="button__text">blue tshirt</span>
+                                        <span class="cost">$26</span>
+                                    </button>
+                            </a>
+                    </li>
+                    <li class="wrapper__team">
+                            <a href="#">
+                                    <img src="./assets/images/homework-04_16.png" alt="Черный ремень" height="282" width="255" class="img">
+                                    <button class="button">
+                                            <span class="button__text">woman shirt</span>
+                                        <span class="cost">$31</span>
+                                    </button>
+                            </a>
+                    </li>
+                    <li class="wrapper__team">
+                            <a href="#">
+                                    <img src="./assets/images/homework-04_17.png" alt="Рыжие туфли" height="282" width="255" class="img">
+                                    <button class="button">
+                                        <span class="button__text">yellow tshirt</span>
+                                        <span class="cost">$21</span>
+                                    </button>
+                            </a>
+                    </li>
+                    <li class="wrapper__team">
+                            <a href="#">
+                                    <img src="./assets/images/homework-04_18.png" alt="Очки" height="282" width="255" class="img">
+                                    <button class="button">
+                                        <span class="button__text">cool lingerie</span>
+                                        <span class="cost">$56</span>
+                                    </button>
+                            </a>
+                    </li>
+                </ul>
+            </section>    
+            <h2 class="top_one">latest news</h2>
+            <section>
+                <div >
+                    <ul class="wrapper_news">
+                        <li class="wrapper__news__articl"><img src="./assets/images/homework-04_26.png" alt="news one" class="img_news">
+                            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                            <p class="news"> Dolorem architecto dolor blanditiis adipisci est quos totam delectus veritatis alias,
+                        laborum at vero aliquid, accusantium distinctio repellat quod voluptatibus iusto veniam.
+                        Id sint numquam perspiciatis libero! </p>
+                            <button class="button_news"> <p class="continue_news">Read more </p> </button>
+                        </li>
+                        <li class="wrapper__news__articl"><img src="./assets/images/homework-04_28.png" alt="news one" class="img_news">
+                            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                             <p class="news"> Dolorem architecto dolor blanditiis adipisci est quos totam delectus veritatis alias,
+                            laborum at vero aliquid, accusantium distinctio repellat quod voluptatibus iusto veniam.
+                            Id sint numquam perspiciatis libero! </p>
+                            <button class="button_news"> <p class="continue_news">Read more </p> </button>
+                        </li>
+                        <li class="wrapper__news__articl"><img src="./assets/images/homework-04_30.png" alt="news one" class="img_news">
+                            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                            <p class="news"> Dolorem architecto dolor blanditiis adipisci est quos totam delectus veritatis alias,
+                            laborum at vero aliquid, accusantium distinctio repellat quod voluptatibus iusto veniam.
+                            Id sint numquam perspiciatis libero! </p>
+                            <button class="button_news"> <p class="continue_news">Read more </p> </button>
+                        </li>
+                    </ul>        
+                </div>
+            </section>
         </div>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_05.png" alt="Оранжевый ремень" class="img">
-            <button class="button">
-                <p class="text">woman shirt </p> <button class="cost">
-                    <p class="summ">&#36 31</p>
-                </button>
-            </button>
-        </div>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_07.png" alt="Шляпа" class="img">
-            <button class="button">
-                <p class="text">yellow tshirt </p> <button class="cost">
-                    <p class="summ">&#36 21</p>
-                </button>
-            </button>
-        </div>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_09.png" alt="Голубая сумка" class="img">
-            <button class="button">
-                <p class="text">cool lingerie </p> <button class="cost">
-                    <p class="summ">&#36 56</p>
-                </button>
-            </button>
-        </div>
-    </section>
-    <section>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_15.png" alt="Черная сумка" class="img">
-            <button class="button">
-                <p class="text">blue tshirt </p> <button class="cost">
-                    <p class="summ">&#36 26</p>
-                </button>
-            </button>
-        </div>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_16.png" alt="Черный ремень" class="img">
-            <button class="button">
-                <p class="text">woman shirt </p> <button class="cost">
-                    <p class="summ">&#36 31</p>
-                </button>
-            </button>
-        </div>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_17.png" alt="Рыжие туфли" class="img">
-            <button class="button">
-                <p class="text">yellow tshirt </p> <button class="cost">
-                    <p class="summ">&#36 21</p>
-                </button>
-            </button>
-        </div>
-        <div class="wrapper">
-            <img src="./assets/img/images/homework-04_19.png" alt="Очки" class="img">
-            <button class="button">
-                <p class="text">cool lingerie </p> <button class="cost">
-                    <p class="summ">&#36 56</p>
-                </button>
-            </button>
-        </div>
-    </section>
-    <h2 class="top_one">latest news</h2>
-    <section>
-        <div class="wrapper_news">
-            <img src="./assets/img/images/homework-04_24.png" alt="news one" class="img_news">
-            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <p class="news"> Dolorem architecto dolor blanditiis adipisci est quos totam delectus veritatis alias,
-                laborum at vero aliquid, accusantium distinctio repellat quod voluptatibus iusto veniam.
-                Id sint numquam perspiciatis libero! </p>
-                <button class="button_news"> <p class="continue_news">Read more </p> </button>
-        </div>
-        <div class="wrapper_news">
-            <img src="./assets/img/images/homework-04_26.png" alt="news two" class="img_news">
-            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <p class="news">Consectetur adipisicing elit. Praesentium dolorum, consequuntur itaque impedit veritatis
-                cupiditate ipsam unde adipisci omnis autem quo aut aliquid molestias numquam rerum officiis?
-                Necessitatibus, dicta vel.Quibusdam, quam doloremque modi illo aliquam tempore dolor cumque mollitia
-                natus beatae iste soluta animi suscipit neque numquam voluptatem quidem porro quasi maxime inventore
-                commodi! </p>
-                <button class="button_news"> <p class="continue_news">Read more </p> </button>
-        </div>
-        <div class="wrapper_news">
-            <img src="./assets/img/images/homework-04_29.png" alt="news three" class="img_news">
-            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <p class="news"> Labore cum tempora sequi minus aperiam saepe!
-                Distinctio officia quis molestias, corrupti reprehenderit iure fugiat omnis earum porro iste, molestiae
-                accusamus in debitis neque fuga! Earum, quo distinctio. Eum porro eaque reiciendis maxime sapiente
-                explicabo modi atque? </p>
-                <button class="button_news"> <p class="continue_news">Read more </p> </button>
-        </div>
-    </section>
+    </main>
 </body>
 
 </html>
