@@ -44,6 +44,7 @@ ul {
 
 .top::first-letter {
     color: rgb(26, 188, 156);
+    font-weight: bold;
 }
 
 .menu {
