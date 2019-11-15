@@ -278,6 +278,14 @@ ul {
   float: left;
   color: rgb(255, 255, 255);
   background-color: rgb(50, 50, 50);
+  text-align: center;
+  padding-top: 14px;
+  padding-left: 42px;
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+
 }
 
 .menu__link-list:last-child .menu__link:hover {
@@ -301,6 +309,7 @@ ul {
 
 .menu__link-list:last-child .menu__link {
   background-image: url("../logo/basket.png");
+  background-position: 10% 50%;
 }
 
 .menu__link:hover {
