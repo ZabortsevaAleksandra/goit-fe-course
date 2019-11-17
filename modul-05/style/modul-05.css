@@ -78,8 +78,7 @@ ul {
 
 .slider {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 2, 0.522), rgba(0, 0, 2, 0.522)),
-    url(../img/slide4.png);
+  background-image: linear-gradient(rgba(0, 0, 2, 0.522), rgba(0, 0, 2, 0.522)), url(../img/slide4.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -285,7 +284,10 @@ ul {
   letter-spacing: -0.28px;
   font-family: "OpenSans", sans-serif;
   font-size: 14px;
+}
 
+.model:hover .buttom {
+  background-color: rgb(26, 188, 156);
 }
 
 .menu__link-list:last-child .menu__link:hover {
