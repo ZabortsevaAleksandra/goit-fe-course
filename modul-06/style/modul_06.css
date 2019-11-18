@@ -19,6 +19,20 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 112px;
+}
+
+
+.logo {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(149, 255, 211);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
 }
 
 .menu {
@@ -30,20 +44,272 @@ ul {
     height: 3px;
 }
 
-.menu__link::after {
-    content: "";
-    background-color: rgb(243, 129, 129);
-    top: 62px;
-    width: 50px;
-    height: 3px;
+.link {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(149, 255, 211);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
 }
 
-.Rectangle_5_copy_6 {
+.link::after {
+    content: "";
     background-color: rgb(243, 129, 129);
-    position: absolute;
-    left: 1071px;
-    top: 62px;
-    width: 50px;
+    width: 100%;
     height: 3px;
-    z-index: 86;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.link:hover {
+    color: rgb(243, 129, 129);
+}
+
+.menu__link:hover .link::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.blok {
+    width: 1200px;
+    padding-bottom: 94px;
+    margin: 0 auto;
+}
+
+.top__menu {
+    font-size: 24px;
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.top {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 46px;
+}
+
+.top::after {
+    content: "";
+    display: block;
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.list__menu {
+    width: 380px;
+
+}
+
+.list__menu::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(/img/logo/ALARM.png);
+}
+
+.list__menu:nth-child(2)::before {
+    background-image: url(/img/logo/LINE\ GRAPH.png);
+}
+
+.list__menu:nth-child(3)::before {
+    background-image: url(/img/logo/COMPUTER\ _\ OK.png);
+}
+
+.list__menu:nth-child(4)::before {
+    background-image: url(/img/logo/BOOK\ 2.png);
+}
+
+.list__menu:nth-child(5)::before {
+    background-image: url(/img/logo/HOME.png);
+}
+
+.list__menu:last-child:before {
+    background-image: url(/img/logo/IMAGE.png);
+}
+
+.text {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.team__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 94px;
+}
+
+.name {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.position {
+    font-size: 15px;
+    font-family: "Roboto Italic", sans-serif;
+    font-weight: 300;
+    color: rgb(153, 153, 153);
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.person {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translateX(0) translateY(0);
+    width: 100%;
+    height: 470px;
+    background-image: linear-gradient(0deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    box-shadow: 10px 10px 0 0 rgb(149, 225, 211);
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all 200ms linear;
+}
+
+.person:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.social__list {
+    flex-basis: 224px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__link-list {
+    border-right: 1px solid rgba(243, 129, 129, 0.5);
+}
+
+.menu__link__social {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(252, 227, 138);
+}
+
+.menu__link-list:first-child .menu__link__social {
+    background-image: url(/img/social/facebook.png);
+
+}
+
+.menu__link-list:nth-child(2) .menu__link__social {
+    background-image: url(/img/social/twitter.png);
+}
+
+.menu__link-list:nth-child(3) .menu__link__social {
+    background-image: url(/img/social/pinterest.png);
+}
+
+.menu__link-list:last-child .menu__link__social {
+    background-image: url(/img/social/instagram.png);
+}
+
+.menu__link-list:hover .menu__link__social {
+    background-color: rgb(149, 225, 211);
+}
+
+footer {
+    height: 64px;
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid rgb(229, 229, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+
+.mail {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+    width: 234px;
+    height: 40px;
+
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-end;
+    width: 384px;
+}
+
+.button {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    background-color: rgb(149, 225, 211);
+    width: 154px;
+    height: 40px;
+    border: none;
+    margin: 0;
 }
