@@ -28,7 +28,7 @@ ul {
 .logo {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
-  color: rgb(149, 255, 211);
+  color: rgb(149, 225, 211);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
@@ -40,14 +40,13 @@ ul {
   min-width: 492px;
   top: 62px;
   width: 50px;
-  height: 3px;
 }
 
 .link {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: rgb(149, 255, 211);
+  color: rgb(149, 225, 211);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
@@ -124,6 +123,7 @@ h5 {
   text-transform: uppercase;
   line-height: 1.2;
   text-align: left;
+  margin-bottom: 16px;
 }
 
 .list__menu {
@@ -163,6 +163,7 @@ h5 {
   font-weight: 400;
   color: rgb(153, 153, 153);
   line-height: 1.6;
+  text-align: center;
 }
 
 .work__text {}
@@ -306,6 +307,7 @@ footer {
   background-color: rgb(255, 255, 255);
   width: 234px;
   height: 40px;
+  padding-left: 16px;
 }
 
 .mail::placeholder {
