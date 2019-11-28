@@ -166,7 +166,9 @@ h5 {
   text-align: center;
 }
 
-.work__text {}
+.work__text {
+  text-align: left;
+}
 
 .team__list {
   display: flex;
